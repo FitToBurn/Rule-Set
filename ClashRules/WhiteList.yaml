@@ -1,0 +1,8 @@
+payload:
+  - DOMAIN,s1.wrangler.monster
+  - DOMAIN-SUFFIX,upos-hz-mirrorakam.akamaized.net
+  # 网易UU AOE2
+  - DOMAIN-SUFFIX,aoe-api.reliclink.com
+  - DOMAIN-SUFFIX,ageofempires.com
+  - DOMAIN-SUFFIX,vortex.data.microsoft.com
+  - DOMAIN-SUFFIX,watson.telemetry.microsoft.com
