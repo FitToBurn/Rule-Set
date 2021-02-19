@@ -5356,7 +5356,6 @@ payload:
   - DOMAIN-SUFFIX,line-apps.com
   - DOMAIN-SUFFIX,line-cdn.net
   - DOMAIN-SUFFIX,line-scdn.net
-  - USER-AGENT,Line*
   - DOMAIN-KEYWORD,blogspot
   - DOMAIN-KEYWORD,google
   - DOMAIN-SUFFIX,abc.xyz
