@@ -1,0 +1,23 @@
+DOMAIN,s1.wrangler.monster,DIRECT
+DOMAIN-SUFFIX,upos-hz-mirrorakam.akamaized.net,DIRECT
+# 网易UU AOE2
+DOMAIN-SUFFIX,aoe-api.reliclink.com,DIRECT
+DOMAIN-SUFFIX,ageofempires.com,DIRECT
+DOMAIN-SUFFIX,vortex.data.microsoft.com,DIRECT
+DOMAIN-SUFFIX,watson.telemetry.microsoft.com,DIRECT
+
+# Surge Only Rules
+# > Proxy
+PROCESS-NAME,v2ray,DIRECT
+PROCESS-NAME,ss-local,DIRECT
+PROCESS-NAME,UUBooster,DIRECT
+# > Download
+PROCESS-NAME,aria2c,DIRECT
+PROCESS-NAME,fdm,DIRECT
+PROCESS-NAME,Folx,DIRECT
+PROCESS-NAME,NetTransport,DIRECT
+PROCESS-NAME,Thunder,DIRECT
+PROCESS-NAME,Transmission,DIRECT
+PROCESS-NAME,uTorrent,DIRECT
+PROCESS-NAME,WebTorrent,DIRECT
+PROCESS-NAME,WebTorrent Helper,DIRECT
