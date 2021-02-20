@@ -1,6 +1,6 @@
 DOMAIN,s1.wrangler.monster,DIRECT
 DOMAIN-SUFFIX,upos-hz-mirrorakam.akamaized.net,DIRECT
-# 网易UU AOE2
+# UU AOE2
 DOMAIN-SUFFIX,aoe-api.reliclink.com,DIRECT
 DOMAIN-SUFFIX,ageofempires.com,DIRECT
 DOMAIN-SUFFIX,vortex.data.microsoft.com,DIRECT
