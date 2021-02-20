@@ -1,3 +1,9 @@
+DOMAIN-SUFFIX,t.me,PROXY
+DOMAIN-SUFFIX,tdesktop.com,PROXY
+DOMAIN-SUFFIX,telegra.ph,PROXY
+DOMAIN-SUFFIX,telegram.me,PROXY
+DOMAIN-SUFFIX,telegram.org,PROXY
+DOMAIN-SUFFIX,telesco.pe,PROXY
 DOMAIN-SUFFIX,steamstatic.com,PROXY
 DOMAIN-SUFFIX,patreonusercontent.com,PROXY
 DOMAIN-SUFFIX,quizlet.com,PROXY

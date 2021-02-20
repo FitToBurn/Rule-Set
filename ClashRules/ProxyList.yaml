@@ -1,4 +1,10 @@
 payload:
+  - DOMAIN-SUFFIX,t.me
+  - DOMAIN-SUFFIX,tdesktop.com
+  - DOMAIN-SUFFIX,telegra.ph
+  - DOMAIN-SUFFIX,telegram.me
+  - DOMAIN-SUFFIX,telegram.org
+  - DOMAIN-SUFFIX,telesco.pe
   - DOMAIN-SUFFIX,steamstatic.com
   - DOMAIN-SUFFIX,patreonusercontent.com
   - DOMAIN-SUFFIX,quizlet.com
