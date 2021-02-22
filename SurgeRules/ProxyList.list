@@ -1,10 +1,4 @@
-DOMAIN-SUFFIX,t.me
-DOMAIN-SUFFIX,tdesktop.com
-DOMAIN-SUFFIX,telegra.ph
-DOMAIN-SUFFIX,telegram.me
-DOMAIN-SUFFIX,telegram.org
-DOMAIN-SUFFIX,telesco.pe
-DOMAIN-SUFFIX,steamstatic.com
+DOMAIN-SUFFIX,cloudflare.steamstatic.com
 DOMAIN-SUFFIX,patreonusercontent.com
 DOMAIN-SUFFIX,quizlet.com
 DOMAIN-SUFFIX,aoe2.net
@@ -1496,7 +1490,6 @@ DOMAIN-SUFFIX,i-scmp.com
 DOMAIN-SUFFIX,ilovelongtoes.com
 DOMAIN-SUFFIX,imgmega.com
 DOMAIN-SUFFIX,imlive.com
-DOMAIN-SUFFIX,iqiyi.com
 DOMAIN-SUFFIX,javhub.net
 DOMAIN-SUFFIX,javhuge.com
 DOMAIN-SUFFIX,javlibrary.com
@@ -2441,7 +2434,6 @@ DOMAIN-SUFFIX,cdcparty.com
 DOMAIN-SUFFIX,cdef.org
 DOMAIN-SUFFIX,cdig.info
 DOMAIN-SUFFIX,cdjp.org
-DOMAIN-SUFFIX,cdn-apple.com
 DOMAIN-SUFFIX,cdnews.com.tw
 DOMAIN-SUFFIX,cdp1998.org
 DOMAIN-SUFFIX,cdp2006.org
@@ -3539,7 +3531,6 @@ DOMAIN-SUFFIX,lushstories.com
 DOMAIN-SUFFIX,lvhai.org
 DOMAIN-SUFFIX,lvv2.com
 DOMAIN-SUFFIX,lzmtnews.org
-DOMAIN-SUFFIX,m-team.cc
 DOMAIN-SUFFIX,macrovpn.com
 DOMAIN-SUFFIX,mad-ar.ch
 DOMAIN-SUFFIX,madrau.com
