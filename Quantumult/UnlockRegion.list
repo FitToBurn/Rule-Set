@@ -1,3 +1,14 @@
+##JP
+#DMM
+DOMAIN-SUFFIX,dmm.co.jp,X
+
+
+##TW
+#巴哈姆特动画疯
+DOMAIN-SUFFIX,gamer2-cds.cdn.hinet.net,X
+DOMAIN-SUFFIX,gamer-cds.cdn.hinet.net,X
+DOMAIN-SUFFIX,bahamut.com.tw,X
+DOMAIN-SUFFIX,gamer.com.tw,X
 #Bilibili-HMT
 DOMAIN-SUFFIX,biliapi.net,X
 DOMAIN-SUFFIX,biliapi.com,X
