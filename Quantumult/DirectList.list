@@ -1,5 +1,5 @@
 DOMAIN,www.cphub.net,DIRECT
-DOMAIN,checkip.synology.com,DIRECT
+DOMAIN-SUFFIX,synology.com,DIRECT
 DOMAIN,s1.wrangler.monster,DIRECT
 DOMAIN-SUFFIX,upos-hz-mirrorakam.akamaized.net,DIRECT
 # UU AOE2
