@@ -6,7 +6,7 @@ payload:
 
 ##TW
   - DOMAIN,www.manhuagui.com
-  - DOMAIN,cf.hamreus.com
+  - DOMAIN,i.hamreus.com
   #Bilibili-HMT
   - DOMAIN-SUFFIX,biliapi.net
   - DOMAIN-SUFFIX,biliapi.com
