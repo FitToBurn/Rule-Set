@@ -5,7 +5,7 @@ payload:
   - DOMAIN-SUFFIX,dmm.co.jp
 
 ##TW
-
+  - DOMAIN,www.manhuagui.com
   #Bilibili-HMT
   - DOMAIN-SUFFIX,biliapi.net
   - DOMAIN-SUFFIX,biliapi.com
