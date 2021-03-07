@@ -1,3 +1,4 @@
+DOMAIN,curl.se,PROXY
 DOMAIN-SUFFIX,docker.com,PROXY
 DOMAIN-SUFFIX,merlinblog.xyz,PROXY
 DOMAIN-SUFFIX,cloudflare.steamstatic.com,PROXY
