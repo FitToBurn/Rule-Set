@@ -1,3 +1,5 @@
+DOMAIN-SUFFIX,cdn12.com,PROXY
+DOMAIN-SUFFIX,cloudfront.net,PROXY
 DOMAIN,curl.se,PROXY
 DOMAIN-SUFFIX,docker.com,PROXY
 DOMAIN-SUFFIX,merlinblog.xyz,PROXY
@@ -31,14 +33,10 @@ DOMAIN-SUFFIX,sankakucomplex.com,PROXY
 DOMAIN-SUFFIX,pximg.net,PROXY
 DOMAIN-SUFFIX,pixiv.org,PROXY
 DOMAIN-SUFFIX,pixiv.co.jp,PROXY
-DOMAIN-SUFFIX,cloudfront.net,PROXY
 DOMAIN-SUFFIX,melonbooks.akamaized.net,PROXY
 DOMAIN-SUFFIX,patreon.com,PROXY
-DOMAIN-SUFFIX,xvideos-cdn.com,PROXY
 DOMAIN-SUFFIX,south-plus.net,PROXY
 DOMAIN-SUFFIX,iwara.tv,PROXY
-DOMAIN-SUFFIX,porntn.com,PROXY
-DOMAIN-SUFFIX,cdn12.com,PROXY
 DOMAIN-SUFFIX,wani.com,PROXY
 DOMAIN-SUFFIX,booth.pm,PROXY
 DOMAIN-SUFFIX,toranoana.jp,PROXY
@@ -51,6 +49,8 @@ DOMAIN-SUFFIX,dengekiya.com,PROXY
 #====================================================
 USER-AGENT,Line*,PROXY
 DOMAIN,85.17.73.31,PROXY
+DOMAIN-SUFFIX,porntn.com,PROXY
+DOMAIN-SUFFIX,xvideos-cdn.com,PROXY
 DOMAIN,img.dlsite.jp,PROXY
 DOMAIN,www.dmm.com,PROXY
 DOMAIN,secure.hustler.com,PROXY

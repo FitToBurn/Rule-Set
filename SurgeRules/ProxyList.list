@@ -1,3 +1,5 @@
+DOMAIN-SUFFIX,cdn12.com
+DOMAIN-SUFFIX,cloudfront.net
 DOMAIN,curl.se
 DOMAIN-SUFFIX,docker.com
 DOMAIN-SUFFIX,merlinblog.xyz
@@ -31,14 +33,10 @@ DOMAIN-SUFFIX,sankakucomplex.com
 DOMAIN-SUFFIX,pximg.net
 DOMAIN-SUFFIX,pixiv.org
 DOMAIN-SUFFIX,pixiv.co.jp
-DOMAIN-SUFFIX,cloudfront.net
 DOMAIN-SUFFIX,melonbooks.akamaized.net
 DOMAIN-SUFFIX,patreon.com
-DOMAIN-SUFFIX,xvideos-cdn.com
 DOMAIN-SUFFIX,south-plus.net
 DOMAIN-SUFFIX,iwara.tv
-DOMAIN-SUFFIX,porntn.com
-DOMAIN-SUFFIX,cdn12.com
 DOMAIN-SUFFIX,wani.com
 DOMAIN-SUFFIX,booth.pm
 DOMAIN-SUFFIX,toranoana.jp
@@ -51,6 +49,8 @@ DOMAIN-SUFFIX,dengekiya.com
 #====================================================
 USER-AGENT,Line*
 DOMAIN,85.17.73.31
+DOMAIN-SUFFIX,porntn.com
+DOMAIN-SUFFIX,xvideos-cdn.com
 DOMAIN,img.dlsite.jp
 DOMAIN,www.dmm.com
 DOMAIN,secure.hustler.com
