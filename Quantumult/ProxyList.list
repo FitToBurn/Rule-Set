@@ -1,8 +1,5 @@
 DOMAIN-SUFFIX,cdn12.com,PROXY
 DOMAIN-SUFFIX,cloudfront.net,PROXY
-DOMAIN,github.com,PROXY
-DOMAIN,raw.githubusercontent.com,PROXY
-DOMAIN,ssl.gstatic.com,PROXY
 DOMAIN,uploads.undergrounded.net,PROXY
 DOMAIN,bwh88.net,PROXY
 DOMAIN,curl.se,PROXY
