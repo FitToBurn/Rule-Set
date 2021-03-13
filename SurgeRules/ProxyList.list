@@ -1,6 +1,8 @@
 DOMAIN-SUFFIX,cdn12.com
 DOMAIN-SUFFIX,cloudfront.net
 DOMAIN,github.com
+DOMAIN,raw.githubusercontent.com
+DOMAIN,ssl.gstatic.com
 DOMAIN,uploads.undergrounded.net
 DOMAIN,bwh88.net
 DOMAIN,curl.se
