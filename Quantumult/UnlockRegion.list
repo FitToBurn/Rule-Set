@@ -7,8 +7,8 @@ DOMAIN-SUFFIX,dmm.co.jp,X
 DOMAIN,www.manhuagui.com,X
 DOMAIN,i.hamreus.com,X
 #巴哈姆特动画疯
-DOMAIN-SUFFIX,gamer2-cds.cdn.hinet.net,X
-DOMAIN-SUFFIX,gamer-cds.cdn.hinet.net,X
+DOMAIN,gamer2-cds.cdn.hinet.net,X
+DOMAIN,gamer-cds.cdn.hinet.net,X
 DOMAIN-SUFFIX,bahamut.com.tw,X
 DOMAIN-SUFFIX,gamer.com.tw,X
 #Bilibili-HMT
