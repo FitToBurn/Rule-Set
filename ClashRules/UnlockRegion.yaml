@@ -4,8 +4,6 @@ payload:
   - DOMAIN-SUFFIX,dmm.co.jp
 
 ##TW
-  - DOMAIN,www.manhuagui.com
-  - DOMAIN,i.hamreus.com
   #巴哈姆特动画疯
   - DOMAIN,gamer2-cds.cdn.hinet.net,Trojan-GCP_TW
   - DOMAIN,gamer-cds.cdn.hinet.net,Trojan-GCP_TW

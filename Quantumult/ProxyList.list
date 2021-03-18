@@ -3,6 +3,9 @@ DOMAIN-SUFFIX,cloudfront.net,PROXY
 DOMAIN,uploads.ungrounded.net,PROXY
 DOMAIN,bwh88.net,PROXY
 DOMAIN,curl.se,PROXY
+DOMAIN,www.manhuagui.com,PROXY
+DOMAIN,tw.manhuagui.com,PROXY
+DOMAIN,i.hamreus.com,PROXY
 DOMAIN-SUFFIX,docker.com,PROXY
 DOMAIN-SUFFIX,merlinblog.xyz,PROXY
 DOMAIN-SUFFIX,cloudflare.steamstatic.com,PROXY
