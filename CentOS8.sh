@@ -79,8 +79,8 @@ install_docker(){
     docker run -d -p 9000:9000 --name=portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer
     docker pull v2fly/v2fly-core
     docker volume create v2fly_config
-    trojan_passwd=$(cat /dev/urandom | head -1 | md5sum | head -c 8)
-	cat > /var/lib/docker/volumes/v2fly_config/config.json <<-EOF
+    randompasswd=$(cat /dev/urandom | head -1 | md5sum | head -c 16)
+	  cat > /var/lib/docker/volumes/v2fly_config/config.json <<-EOF
 {
   "log": {
     "loglevel": "warning"
@@ -91,7 +91,7 @@ install_docker(){
       "port": 443, 
       "protocol": "trojan",
       "settings": {
-        "clients":[{"password": "$trojan_passwd"}],
+        "clients":[{"password": "$randompasswd"}],
         "fallbacks": [{"dest": 9000}]
       },
       "streamSettings": {
@@ -101,9 +101,19 @@ install_docker(){
           "alpn": ["http/1.1"],
           "certificates": [{
             "certificateFile": "/cert/fullchain.cer",
-            "keyFile": "/cert/privkey.key"
+            "keyFile": "/cert/private.key"
           }]
         }
+      }
+    },
+    {
+      "listen": "0.0.0.0",
+      "port": 6161, 
+      "protocol": "shadowsocks",
+      "settings":{
+          "method": "chacha20-ietf-poly1305",
+          "ota": false, 
+          "password": "$randompasswd"
       }
     }
   ],
@@ -113,7 +123,15 @@ install_docker(){
 }
 EOF
     docker run -d --network=host --name=v2fly --restart=always -v /var/lib/docker/volumes/v2fly_config/config.json:/etc/v2ray/config.json -v /usr/src/cert:/cert v2fly/v2fly-core
-
+    docker pull primovist/snell-docker
+    docker volume create snell_config
+    cat > /var/lib/docker/volumes/snell_config/snell-server.conf <<-EOF
+[Snell Server]
+interface = 0.0.0.0:6162
+psk = $randompasswd
+obfs = off
+EOF
+    docker run -d --network=host --name=snell --restart=always -v /var/lib/docker/volumes/snell_config/:/etc/snell/ primovist/snell-docker
 }
 
 
