@@ -32,7 +32,8 @@ initialize(){
     lsmod | grep bbr
 }
 
-cert(){#更新后重启docker
+#更新后重启docker
+cert(){
     green "=================================="
     yellow "Enter the domain name of you VPS:"
     green "=================================="
