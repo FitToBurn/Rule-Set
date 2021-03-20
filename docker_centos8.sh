@@ -8,9 +8,15 @@ red(){
 yellow(){
     echo -e "\033[33m\033[01m$1\033[0m"
 }
+yellowS(){
+    echo -ne "\033[33m\033[01m$1\033[0m "
+}
+teal(){
+    echo -e "\033[33m\033[01m$1\036[0m"
+}
 
 enter_promote(){
-    echo -ne "\033[44;37m$1\033[0m"
+    echo -ne "\033[44;37m$1\033[0m "
 }
 
 initialize(){
@@ -28,12 +34,19 @@ initialize(){
         setenforce 0
     fi
     yum -y install bind-utils wget unzip zip curl tar
+
     #开启BBR加速
-    echo "net.core.default_qdisc=fq" >> /etc/sysctl.conf
-    echo "net.ipv4.tcp_congestion_control=bbr" >> /etc/sysctl.conf
-    sysctl -p
-    sysctl -n net.ipv4.tcp_congestion_control
-    lsmod | grep bbr
+    BBRCHECK = $(sysctl -n net.ipv4.tcp_congestion_control)
+    if [ "$BBRCHECK" != "bbr" ]; then
+        echo "net.core.default_qdisc=fq" >> /etc/sysctl.conf
+        echo "net.ipv4.tcp_congestion_control=bbr" >> /etc/sysctl.conf
+        sysctl -p
+        sysctl -n net.ipv4.tcp_congestion_control
+        lsmod | grep bbr
+        green "BBR enabled."
+    else
+        yellow "BBR is already enabled."
+    fi
 }
 
 cert(){
@@ -91,21 +104,24 @@ protocol_config(){
     green "======================================================"
     echo
     yellow "Enter the PASSWORD for Trojan, Shadowsocks and Snell:"
-    yellow "Default PASSWORD:${randompasswd}"
+    yellowS "Default:"
+    teal "${randompasswd}"
     enter_promote "Please enter:"
     read mainpasswd
     [ -z "${mainpasswd}" ] && mainpasswd=${randompasswd}
     echo
 
     yellow "Enter the port for Shadowsocks [1-65535]:"
-    yellow "Default SS Port:${randomssport}"
+    yellowS "Default:"
+    teal "${randomssport}"
     enter_promote "Please enter:"
     read ssport
     [ -z "${ssport}" ] && ssport=${randomssport}
     echo
 
     yellow "Enter the port for Snell [1-65535]:"
-    yellow "Default Snell Port:${randomsnellport}"
+    yellowS "Default:"
+    teal "${randomsnellport}"
     enter_promote "Please enter:"
     read snellport
     [ -z "${snellport}" ] && snellport=${randomsnellport}
@@ -186,29 +202,32 @@ ssh_update_config(){
     randomsshport=$(shuf -i 20000-29999 -n 1)
     randomsshpasswd=$(cat /dev/urandom | head -1 | md5sum | head -c 16)
 
-    green "======================================================"
+    green "==========================================="
     echo
     yellow "Enter a new SSH port [1-65535]:"
-    yellow "Default new SSH port:${randomsshport}"
+    yellowS "Default:"
+    teal "${randomsshport}"
     enter_promote "Please enter:"
     read sshport
     [ -z "${sshport}" ] && sshport=${randomsshport}
     echo
 
     yellow "Enter a USERNAME for new admin account:"
-    yellow "Default USERNAME:TempAdmin"
+    yellowS "Default:"
+    teal "TempAdmin"
     enter_promote "Please enter:"
     read newusername
     [ -z "${newusername}" ] && newusername="TempAdmin"
     echo
 
     yellow "Enter a PASSWORD for ${newusername}:"
-    yellow "Default PASSWORD:${randomsshpasswd}"
+    yellowS "Default:"
+    teal "${randomsshpasswd}"
     enter_promote "Please enter:"
     read sshpasswd
     [ -z "${sshpasswd}" ] && sshpasswd=${randomsshpasswd}
     echo
-    green "======================================================"
+    green "==========================================="
     echo
 
 }
@@ -267,7 +286,6 @@ EOF
 }
 
 start_menu(){
-    initialize
     clear
     green " ===================================="
     green " ===================================="
@@ -298,4 +316,5 @@ start_menu(){
     esac
 }
 
+initialize
 start_menu
