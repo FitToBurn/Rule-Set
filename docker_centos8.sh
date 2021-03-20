@@ -85,27 +85,25 @@ protocol_config(){
     randomsnellport=$(shuf -i 15000-19999 -n 1)
 
     green "======================================================"
+    echo
     yellow "Enter the PASSWORD for Trojan, Shadowsocks and Snell:"
     yellow "Default PASSWORD:${randompasswd}"
-    green "======================================================"
-    read -p "\033[33m\033[01mPlease enter:\033[0m" mainpasswd
+    read -p "\033[44;37mPlease enter:\033[0m" mainpasswd
     [ -z "${mainpasswd}" ] && mainpasswd=${randompasswd}
     echo
 
-    green "======================================================"
     yellow "Enter the port for Shadowsocks [1-65535]:"
     yellow "Default SS Port:${randomssport}"
-    green "======================================================"
-    read -p "\033[33m\033[01mPlease enter:\033[0m" ssport
+    read -p "\033[44;37mPlease enter:\033[0m" ssport
     [ -z "${ssport}" ] && ssport=${randomssport}
     echo
 
-    green "======================================================"
     yellow "Enter the port for Snell [1-65535]:"
     yellow "Default Snell Port:${randomsnellport}"
-    green "======================================================"
-    read -p "\033[33m\033[01mPlease enter:\033[0m" snellport
+    read -p "\033[44;37mPlease enter:\033[0m" snellport
     [ -z "${snellport}" ] && snellport=${randomsnellport}
+    echo
+    green "======================================================"
     echo
 
 }
@@ -182,27 +180,25 @@ ssh_update_config(){
     randomsshpasswd=$(cat /dev/urandom | head -1 | md5sum | head -c 16)
 
     green "======================================================"
+    echo
     yellow "Enter a new SSH port [1-65535]:"
     yellow "Default new SSH port:${randomsshport}"
-    green "======================================================"
-    read -p "\033[33m\033[01mPlease enter:\033[0m" sshport
+    read -p "\033[44;37mPlease enter:\033[0m" sshport
     [ -z "${sshport}" ] && sshport=${randomsshport}
     echo
 
-    green "======================================================"
     yellow "Enter a USERNAME for new admin account:"
     yellow "Default USERNAME:TempAdmin"
-    green "======================================================"
-    read -p "\033[33m\033[01mPlease enter:\033[0m" newusername
+    read -p "\033[44;37mPlease enter:\033[0m" newusername
     [ -z "${newusername}" ] && newusername="TempAdmin"
     echo
 
-    green "======================================================"
     yellow "Enter a PASSWORD for ${newusername}:"
     yellow "Default PASSWORD:${randomsshpasswd}"
-    green "======================================================"
-    read -p "\033[33m\033[01mPlease enter:\033[0m" sshpasswd
+    read -p "\033[44;37mPlease enter:\033[0m" sshpasswd
     [ -z "${sshpasswd}" ] && sshpasswd=${randomsshpasswd}
+    echo
+    green "======================================================"
     echo
 
 }
