@@ -9,6 +9,10 @@ yellow(){
     echo -e "\033[33m\033[01m$1\033[0m"
 }
 
+enter_promote(){
+    echo -ne "\033[44;37m$1\033[0m"
+}
+
 initialize(){
     [[ $EUID -ne 0 ]] && echo -e "[${red}Error${plain}] This script must be run as root!" && exit 1
     #关闭防火墙和SELINUX
@@ -88,19 +92,22 @@ protocol_config(){
     echo
     yellow "Enter the PASSWORD for Trojan, Shadowsocks and Snell:"
     yellow "Default PASSWORD:${randompasswd}"
-    read -p "\033[44;37mPlease enter:\033[0m" mainpasswd
+    enter_promote "Please enter:"
+    read mainpasswd
     [ -z "${mainpasswd}" ] && mainpasswd=${randompasswd}
     echo
 
     yellow "Enter the port for Shadowsocks [1-65535]:"
     yellow "Default SS Port:${randomssport}"
-    read -p "\033[44;37mPlease enter:\033[0m" ssport
+    enter_promote "Please enter:"
+    read ssport
     [ -z "${ssport}" ] && ssport=${randomssport}
     echo
 
     yellow "Enter the port for Snell [1-65535]:"
     yellow "Default Snell Port:${randomsnellport}"
-    read -p "\033[44;37mPlease enter:\033[0m" snellport
+    enter_promote "Please enter:"
+    read snellport
     [ -z "${snellport}" ] && snellport=${randomsnellport}
     echo
     green "======================================================"
@@ -183,19 +190,22 @@ ssh_update_config(){
     echo
     yellow "Enter a new SSH port [1-65535]:"
     yellow "Default new SSH port:${randomsshport}"
-    read -p "\033[44;37mPlease enter:\033[0m" sshport
+    enter_promote "Please enter:"
+    read sshport
     [ -z "${sshport}" ] && sshport=${randomsshport}
     echo
 
     yellow "Enter a USERNAME for new admin account:"
     yellow "Default USERNAME:TempAdmin"
-    read -p "\033[44;37mPlease enter:\033[0m" newusername
+    enter_promote "Please enter:"
+    read newusername
     [ -z "${newusername}" ] && newusername="TempAdmin"
     echo
 
     yellow "Enter a PASSWORD for ${newusername}:"
     yellow "Default PASSWORD:${randomsshpasswd}"
-    read -p "\033[44;37mPlease enter:\033[0m" sshpasswd
+    enter_promote "Please enter:"
+    read sshpasswd
     [ -z "${sshpasswd}" ] && sshpasswd=${randomsshpasswd}
     echo
     green "======================================================"
@@ -266,7 +276,9 @@ start_menu(){
     red " 2. VPS Security Update"
     yellow " 0. Exit Script"
     echo
-    read -p "Enter a number:" num
+    enter_promote "Enter a number:"
+    read num
+    echo
     case "$num" in
     1)
     cert
