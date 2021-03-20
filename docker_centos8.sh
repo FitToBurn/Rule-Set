@@ -61,14 +61,15 @@ cert(){
             --fullchain-file /usr/src/cert/fullchain.cer \
             --reloadcmd  "systemctl force-reload  nginx.service"
         if test -s /usr/src/cert/fullchain.cer; then
-            green "================"
-            green "https证书申请成功"
-            green "================"
+            green "================================================"
+            green "SSL Certificate has been Successfully installed."
+            yellow "Initializing docker installation..."
+            green "================================================"
             install_docker
         else
-            red "================"
-            red "https证书申请失败"
-            red "================"
+            red "=================================="
+            red "Failed to install SSL Certificate."
+            red "=================================="
         fi
 	
     else
@@ -265,9 +266,9 @@ start_menu(){
     green " ===================================="
     green " ===================================="
     echo
-    green " 1. 安装/更新证书"
-    red " 2. VPS安全升级"
-    yellow " 0. 退出脚本"
+    green " 1. Install/Renew SSL Certificate"
+    red " 2. VPS Security Update"
+    yellow " 0. Exit Script"
     echo
     read -p "Enter a number:" num
     case "$num" in
