@@ -64,6 +64,7 @@ cert(){
             green "================"
             green "https证书申请成功"
             green "================"
+            install_docker
         else
             red "================"
             red "https证书申请失败"
@@ -86,22 +87,25 @@ protocol_config(){
     yellow "Enter the PASSWORD for Trojan, Shadowsocks and Snell:"
     yellow "Default PASSWORD:${randompasswd}"
     green "======================================================"
-    read -p "Please enter:" mainpasswd
+    read -p "\033[33m\033[01mPlease enter:\033[0m" mainpasswd
     [ -z "${mainpasswd}" ] && mainpasswd=${randompasswd}
+    echo
 
     green "======================================================"
     yellow "Enter the port for Shadowsocks [1-65535]:"
     yellow "Default SS Port:${randomssport}"
     green "======================================================"
-    read -p "Please enter:" ssport
+    read -p "\033[33m\033[01mPlease enter:\033[0m" ssport
     [ -z "${ssport}" ] && ssport=${randomssport}
+    echo
 
     green "======================================================"
     yellow "Enter the port for Snell [1-65535]:"
     yellow "Default Snell Port:${randomsnellport}"
     green "======================================================"
-    read -p "Please enter:" snellport
+    read -p "\033[33m\033[01mPlease enter:\033[0m" snellport
     [ -z "${snellport}" ] && snellport=${randomsnellport}
+    echo
 
 }
 
@@ -180,29 +184,32 @@ ssh_update_config(){
     yellow "Enter a new SSH port [1-65535]:"
     yellow "Default new SSH port:${randomsshport}"
     green "======================================================"
-    read -p "Please enter:" sshport
+    read -p "\033[33m\033[01mPlease enter:\033[0m" sshport
     [ -z "${sshport}" ] && sshport=${randomsshport}
+    echo
 
     green "======================================================"
-    yellow "Enter the USERNAME for new admin account:"
+    yellow "Enter a USERNAME for new admin account:"
     yellow "Default USERNAME:TempAdmin"
     green "======================================================"
-    read -p "Please enter:" newusername
+    read -p "\033[33m\033[01mPlease enter:\033[0m" newusername
     [ -z "${newusername}" ] && newusername="TempAdmin"
+    echo
 
     green "======================================================"
-    yellow "Enter the PASSWORD for ${newusername}:"
+    yellow "Enter a PASSWORD for ${newusername}:"
     yellow "Default PASSWORD:${randomsshpasswd}"
     green "======================================================"
-    read -p "Please enter:" sshpasswd
+    read -p "\033[33m\033[01mPlease enter:\033[0m" sshpasswd
     [ -z "${sshpasswd}" ] && sshpasswd=${randomsshpasswd}
+    echo
 
 }
 
 ssh_update(){
   ssh_update_config
   adduser ${newusername}
-  echo ${sshpasswd} | passwd ${newusername}
+  echo ${sshpasswd} | passwd ${newusername} --stdin
   chmod 777 /etc/sudoers
   cat > /etc/sudoers <<-EOF
 Defaults   !visiblepw
@@ -246,7 +253,7 @@ AcceptEnv XMODIFIERS
 Subsystem	sftp	/usr/libexec/openssh/sftp-server
 EOF
   echo y | dnf install policycoreutils-python-utils
-  semanage port -a -t ssh_port_t -p tcp 26785
+  semanage port -a -t ssh_port_t -p tcp ${sshport}
   semanage port -l | grep ssh
   systemctl restart sshd
 
@@ -266,7 +273,6 @@ start_menu(){
     case "$num" in
     1)
     cert
-    install_docker
     ;;
     2)
     ssh_update
