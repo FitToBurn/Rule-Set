@@ -7,6 +7,10 @@ payload:
   - DOMAIN,www.manhuagui.com
   - DOMAIN,tw.manhuagui.com
   - DOMAIN,i.hamreus.com
+  - DOMAIN,img.dlsite.jp
+  - DOMAIN,www.dmm.com
+
+#SUFFIX
   - DOMAIN-SUFFIX,docker.com
   - DOMAIN-SUFFIX,merlinblog.xyz
   - DOMAIN-SUFFIX,cloudflare.steamstatic.com
@@ -52,5 +56,5 @@ payload:
   - DOMAIN-SUFFIX,dengekiya.com
   - DOMAIN-SUFFIX,porntn.com
   - DOMAIN-SUFFIX,xvideos-cdn.com
-  - DOMAIN,img.dlsite.jp
-  - DOMAIN,www.dmm.com
+  - DOMAIN-SUFFIX,discord.com
+  - DOMAIN-SUFFIX,discord.gg

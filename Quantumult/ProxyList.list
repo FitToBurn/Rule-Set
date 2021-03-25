@@ -6,6 +6,10 @@ DOMAIN,curl.se,PROXY
 DOMAIN,www.manhuagui.com,PROXY
 DOMAIN,tw.manhuagui.com,PROXY
 DOMAIN,i.hamreus.com,PROXY
+DOMAIN,img.dlsite.jp,PROXY
+DOMAIN,www.dmm.com,PROXY
+
+#SUFFIX
 DOMAIN-SUFFIX,docker.com,PROXY
 DOMAIN-SUFFIX,merlinblog.xyz,PROXY
 DOMAIN-SUFFIX,cloudflare.steamstatic.com,PROXY
@@ -51,5 +55,5 @@ DOMAIN-SUFFIX,mercdn.net,PROXY
 DOMAIN-SUFFIX,dengekiya.com,PROXY
 DOMAIN-SUFFIX,porntn.com,PROXY
 DOMAIN-SUFFIX,xvideos-cdn.com,PROXY
-DOMAIN,img.dlsite.jp,PROXY
-DOMAIN,www.dmm.com,PROXY
+DOMAIN-SUFFIX,discord.com,PROXY
+DOMAIN-SUFFIX,discord.gg,PROXY
