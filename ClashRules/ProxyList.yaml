@@ -1,6 +1,4 @@
 payload:
-  - DOMAIN-SUFFIX,cdn12.com
-  - DOMAIN-SUFFIX,cloudfront.net
   - DOMAIN,uploads.ungrounded.net
   - DOMAIN,bwh88.net
   - DOMAIN,curl.se
@@ -9,42 +7,45 @@ payload:
   - DOMAIN,i.hamreus.com
   - DOMAIN,img.dlsite.jp
   - DOMAIN,www.dmm.com
+  - DOMAIN,stackoverflow.com
 
 #SUFFIX
-  - DOMAIN-SUFFIX,docker.com
-  - DOMAIN-SUFFIX,merlinblog.xyz
-  - DOMAIN-SUFFIX,cloudflare.steamstatic.com
+  - DOMAIN-SUFFIX,discord.com
+  - DOMAIN-SUFFIX,discord.gg
+  - DOMAIN-SUFFIX,imgbb.com
+  - DOMAIN-SUFFIX,ibb.co
+  - DOMAIN-SUFFIX,patreon.com
   - DOMAIN-SUFFIX,patreonusercontent.com
+  - DOMAIN-SUFFIX,docker.com
+  - DOMAIN-SUFFIX,wikileaks.com
+  - DOMAIN-SUFFIX,amazonaws.com
+  - DOMAIN-SUFFIX,bitbucket.org
+  - DOMAIN-SUFFIX,openwrt.org
+  - DOMAIN-SUFFIX,expressvpn.com
+  - DOMAIN-SUFFIX,4chan.org
+  - DOMAIN-SUFFIX,tweetdeck.com
   - DOMAIN-SUFFIX,quizlet.com
   - DOMAIN-SUFFIX,aoe2.net
   - DOMAIN-SUFFIX,netlify.com
-  - DOMAIN-SUFFIX,atrandys.com
-  - DOMAIN-SUFFIX,bgm.tv
-  - DOMAIN-SUFFIX,space-caiman.com
-  - DOMAIN-SUFFIX,south-plus.org
   - DOMAIN-SUFFIX,flywire.com
-  - DOMAIN-SUFFIX,cuffs.co.jp
-  - DOMAIN-SUFFIX,upload.cc
-  - DOMAIN-SUFFIX,lashinbang.com
-  - DOMAIN-SUFFIX,imgbb.com
-  - DOMAIN-SUFFIX,ibb.co
-  - DOMAIN-SUFFIX,ssllabs.com
-  - DOMAIN-SUFFIX,qualys.com
-  - DOMAIN-SUFFIX,newlearner.site
   - DOMAIN-SUFFIX,azure.com
   - DOMAIN-SUFFIX,suny.edu
   - DOMAIN-SUFFIX,stonybrook.edu
   - DOMAIN-SUFFIX,playstation.com
-  - DOMAIN-SUFFIX,exhentai.org
   - DOMAIN-SUFFIX,saucenao.com
-  - DOMAIN-SUFFIX,jiku-chu.com
+  - DOMAIN-SUFFIX,atrandys.com
+  - DOMAIN-SUFFIX,merlinblog.xyz
   - DOMAIN-SUFFIX,hath.network
-  - DOMAIN-SUFFIX,sankakucomplex.com
-  - DOMAIN-SUFFIX,pixiv.co.jp
-  - DOMAIN-SUFFIX,melonbooks.akamaized.net
-  - DOMAIN-SUFFIX,patreon.com
-  - DOMAIN-SUFFIX,south-plus.net
-  - DOMAIN-SUFFIX,iwara.tv
+  - DOMAIN-SUFFIX,upload.cc
+  - DOMAIN-SUFFIX,ssllabs.com
+  - DOMAIN-SUFFIX,qualys.com
+  - DOMAIN-SUFFIX,newlearner.site
+
+#JP
+  - DOMAIN-SUFFIX,getchu.com
+  - DOMAIN-SUFFIX,cuffs.co.jp
+  - DOMAIN-SUFFIX,jiku-chu.com
+  - DOMAIN-SUFFIX,space-caiman.com
   - DOMAIN-SUFFIX,wani.com
   - DOMAIN-SUFFIX,booth.pm
   - DOMAIN-SUFFIX,toranoana.jp
@@ -54,7 +55,32 @@ payload:
   - DOMAIN-SUFFIX,mercari.com
   - DOMAIN-SUFFIX,mercdn.net
   - DOMAIN-SUFFIX,dengekiya.com
+  - DOMAIN-SUFFIX,melonbooks.akamaized.net
+  - DOMAIN-SUFFIX,lashinbang.com
+
+#CDN
+  - DOMAIN-SUFFIX,cdn12.com
+  - DOMAIN-SUFFIX,cloudfront.net
+  - DOMAIN-SUFFIX,cloudflare.steamstatic.com
+  - DOMAIN-SUFFIX,cloudflare.com
+
+#??????????????????????????????????????????
+  - DOMAIN-SUFFIX,sankakucomplex.com
+  - DOMAIN-SUFFIX,iwara.tv
+  - DOMAIN-SUFFIX,exhentai.org
+  - DOMAIN-SUFFIX,south-plus.org
+  - DOMAIN-SUFFIX,south-plus.net
+  - DOMAIN-SUFFIX,tokyo-hot.com
   - DOMAIN-SUFFIX,porntn.com
   - DOMAIN-SUFFIX,xvideos-cdn.com
-  - DOMAIN-SUFFIX,discord.com
-  - DOMAIN-SUFFIX,discord.gg
+  - DOMAIN,avmoo.cyou
+  - DOMAIN,mo.nightlife141.com
+  - DOMAIN-SUFFIX,fakku.net
+  - DOMAIN-SUFFIX,javhub.net
+  - DOMAIN-SUFFIX,avmoo.pw
+  - DOMAIN-SUFFIX,91porn.com
+  - DOMAIN-SUFFIX,hentai.to
+  - DOMAIN-SUFFIX,jav.com
+  - DOMAIN-SUFFIX,javbus.com
+  - DOMAIN-SUFFIX,javhd.com
+  - DOMAIN-SUFFIX,tokyo-hot.com
