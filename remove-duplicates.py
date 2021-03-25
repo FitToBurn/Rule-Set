@@ -37,8 +37,8 @@ ShowSelfDupliacteRules = 1
 #去除与基础规则重复的自添加规则
 ShowBaseDupliacteRules = 1
 
-Clash = 1
-Quantumult = 1
+Clash = 0
+Quantumult = 0
 Surge = 1
 
 
