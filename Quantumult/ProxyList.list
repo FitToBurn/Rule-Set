@@ -35,8 +35,6 @@ DOMAIN-SUFFIX,saucenao.com,PROXY
 DOMAIN-SUFFIX,jiku-chu.com,PROXY
 DOMAIN-SUFFIX,hath.network,PROXY
 DOMAIN-SUFFIX,sankakucomplex.com,PROXY
-DOMAIN-SUFFIX,pximg.net,PROXY
-DOMAIN-SUFFIX,pixiv.org,PROXY
 DOMAIN-SUFFIX,pixiv.co.jp,PROXY
 DOMAIN-SUFFIX,melonbooks.akamaized.net,PROXY
 DOMAIN-SUFFIX,patreon.com,PROXY
@@ -55,7 +53,3 @@ DOMAIN-SUFFIX,porntn.com,PROXY
 DOMAIN-SUFFIX,xvideos-cdn.com,PROXY
 DOMAIN,img.dlsite.jp,PROXY
 DOMAIN,www.dmm.com,PROXY
-DOMAIN-SUFFIX,amazon.co.jp,PROXY
-DOMAIN-SUFFIX,duyaoss.com,PROXY
-DOMAIN-SUFFIX,zoom.us,PROXY
-DOMAIN-SUFFIX,wikiwand.com,PROXY

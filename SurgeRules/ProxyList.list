@@ -35,8 +35,6 @@ DOMAIN-SUFFIX,saucenao.com
 DOMAIN-SUFFIX,jiku-chu.com
 DOMAIN-SUFFIX,hath.network
 DOMAIN-SUFFIX,sankakucomplex.com
-DOMAIN-SUFFIX,pximg.net
-DOMAIN-SUFFIX,pixiv.org
 DOMAIN-SUFFIX,pixiv.co.jp
 DOMAIN-SUFFIX,melonbooks.akamaized.net
 DOMAIN-SUFFIX,patreon.com
@@ -55,7 +53,3 @@ DOMAIN-SUFFIX,porntn.com
 DOMAIN-SUFFIX,xvideos-cdn.com
 DOMAIN,img.dlsite.jp
 DOMAIN,www.dmm.com
-DOMAIN-SUFFIX,amazon.co.jp
-DOMAIN-SUFFIX,duyaoss.com
-DOMAIN-SUFFIX,zoom.us
-DOMAIN-SUFFIX,wikiwand.com

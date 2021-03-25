@@ -7,8 +7,8 @@ DirectClash = ["https://raw.githubusercontent.com/DivineEngine/Profiles/master/C
 ProxyClash = ["https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/Streaming.yaml",
                "https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Global.yaml"]
 #自添加规则库-Clash [Direct,Proxy]
-AddSetClash = ["https://raw.githubusercontent.com/729376442/PublicFiles/main/ClashRules/DirectList.yaml",
-               "https://raw.githubusercontent.com/729376442/PublicFiles/main/ClashRules/ProxyList.yaml"]
+AddSetClash = ["https://raw.githubusercontent.com/729376442/Rule-Set/main/ClashRules/DirectList.yaml",
+               "https://raw.githubusercontent.com/729376442/Rule-Set/main/ClashRules/ProxyList.yaml"]
 
 
 #基础规则库-Quantumult
@@ -16,16 +16,16 @@ DirectQuantumult = ["https://raw.githubusercontent.com/DivineEngine/Profiles/mas
 ProxyQuantumult = ["https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/StreamingMedia/Streaming.list",
                     "https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Global.list"]
 #自添加规则库-Quantumult [Direct,Proxy]
-AddSetQuantumult = ["https://raw.githubusercontent.com/729376442/PublicFiles/main/Quantumult/DirectList.list",
-                    "https://raw.githubusercontent.com/729376442/PublicFiles/main/Quantumult/ProxyList.list"]
+AddSetQuantumult = ["https://raw.githubusercontent.com/729376442/Rule-Set/main/Quantumult/DirectList.list",
+                    "https://raw.githubusercontent.com/729376442/Rule-Set/main/Quantumult/ProxyList.list"]
 
 #基础规则库-Surge
 DirectSurge = ["https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/China.list"]
 ProxySurge = ["https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Streaming.list",
                "https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Global.list"]
 #自添加规则库-Surge [Direct,Proxy]
-AddSetSurge = ["https://raw.githubusercontent.com/729376442/PublicFiles/main/SurgeRules/DirectList.list",
-               "https://raw.githubusercontent.com/729376442/PublicFiles/main/SurgeRules/ProxyList.list"]
+AddSetSurge = ["https://raw.githubusercontent.com/729376442/Rule-Set/main/SurgeRules/DirectList.list",
+               "https://raw.githubusercontent.com/729376442/Rule-Set/main/SurgeRules/ProxyList.list"]
 
 
 #去除自添加的冲突规则
