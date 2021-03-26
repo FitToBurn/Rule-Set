@@ -1,4 +1,3 @@
-DOMAIN,fast.com,PROXY
 DOMAIN,uploads.ungrounded.net,PROXY
 DOMAIN,bwh88.net,PROXY
 DOMAIN,curl.se,PROXY
@@ -10,6 +9,7 @@ DOMAIN,www.dmm.com,PROXY
 DOMAIN,stackoverflow.com,PROXY
 
 #SUFFIX
+DOMAIN-SUFFIX,fast.com,PROXY
 DOMAIN-SUFFIX,discord.com,PROXY
 DOMAIN-SUFFIX,discord.gg,PROXY
 DOMAIN-SUFFIX,imgbb.com,PROXY

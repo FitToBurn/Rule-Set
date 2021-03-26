@@ -1,5 +1,4 @@
 payload:
-  - DOMAIN,fast.com
   - DOMAIN,uploads.ungrounded.net
   - DOMAIN,bwh88.net
   - DOMAIN,curl.se
@@ -11,6 +10,7 @@ payload:
   - DOMAIN,stackoverflow.com
 
 #SUFFIX
+  - DOMAIN-SUFFIX,fast.com
   - DOMAIN-SUFFIX,discord.com
   - DOMAIN-SUFFIX,discord.gg
   - DOMAIN-SUFFIX,imgbb.com
