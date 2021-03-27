@@ -1,4 +1,5 @@
 #!name=General
+#!desc=Remove ads, historical price.
 #!system=ios
 
 [Rule]
