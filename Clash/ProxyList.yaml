@@ -13,6 +13,7 @@ payload:
   - DOMAIN,stackoverflow.com
 
 #SUFFIX
+  - DOMAIN-SUFFIX,blinkload.org
   - DOMAIN-SUFFIX,fast.com
   - DOMAIN-SUFFIX,discord.com
   - DOMAIN-SUFFIX,discord.gg

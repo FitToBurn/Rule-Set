@@ -12,6 +12,7 @@ DOMAIN,www.dmm.com,PROXY
 DOMAIN,stackoverflow.com,PROXY
 
 #SUFFIX
+DOMAIN-SUFFIX,blinkload.org,PROXY
 DOMAIN-SUFFIX,fast.com,PROXY
 DOMAIN-SUFFIX,discord.com,PROXY
 DOMAIN-SUFFIX,discord.gg,PROXY
