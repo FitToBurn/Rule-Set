@@ -3,8 +3,6 @@
 #!system=ios
 
 [Rule]
-############### iOS/Mac YouTube AD
-############### Source:https://github.com/lhie1/Rules/blob/master/Surge/Surge%203/Module/YouTube.sgmodule
 URL-REGEX,https?:\/\/.+.googlevideo.com\/ptracking\?pltype=adhost,REJECT
 URL-REGEX,https?:\/\/.+.youtube.com\/api\/stats\/ads,REJECT
 URL-REGEX,https?:\/\/.+.youtube.com\/get_midroll_,REJECT
@@ -19,13 +17,10 @@ URL-REGEX,https?:\/\/youtubei.googleapis.com\/youtubei\/.+(ad|log),REJECT
 URL-REGEX,https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adformat,REJECT
 URL-REGEX,https?:\/\/[\w-]+\.googlevideo\.com\/.+&oad,REJECT-TINYGIF
 
-############### iOS Bilibili AD
-############### Source:https://github.com/lhie1/Rules/blob/master/Surge/Surge%203/Module/Bilibili.sgmodule
-URL-REGEX,https://app.bilibili.com/x/v2/(splash|search/(defaultword|square)),REJECT
-URL-REGEX,https://api.bilibili.com/x/v2/dm/ad,REJECT
-
 [URL Rewrite]
 ctier=[A-Z] citer=A 302
+https://app.bilibili.com/x/v2/(splash|search/(defaultword|square)) - reject
+https://api.bilibili.com/x/v2/dm/ad - reject
 
 [Script]
 ############### Mac/iOS YouTube AD
