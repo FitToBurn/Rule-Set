@@ -48,4 +48,4 @@ http-request ^http://.+/amdc/mobileDispatch requires-body=1,script-path=https://
 http-response ^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail requires-body=1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js
 
 [MITM]
-hostname = %APPEND% *.googlevideo.com, *.youtube.com, youtubei.googleapis.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, www.bilibili.com, api.bilibili.com, app.bilibili.com, api.live.bilibili.com, api.m.jd.com, trade-acs.m.taobao.com
+hostname = %APPEND% *.googlevideo.com, *.youtube.com, youtubei.googleapis.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, api.bilibili.com, app.bilibili.com, api.live.bilibili.com, api.m.jd.com, trade-acs.m.taobao.com
