@@ -42,9 +42,9 @@ DOMAIN-SUFFIX,hath.network,PROXY
 DOMAIN-SUFFIX,upload.cc,PROXY
 DOMAIN-SUFFIX,ssllabs.com,PROXY
 DOMAIN-SUFFIX,qualys.com,PROXY
-DOMAIN-SUFFIX,newlearner.site
+DOMAIN-SUFFIX,newlearner.site,PROXY
 
-#JP,PROXY
+#JP
 DOMAIN-SUFFIX,getchu.com,PROXY
 DOMAIN-SUFFIX,cuffs.co.jp,PROXY
 DOMAIN-SUFFIX,jiku-chu.com,PROXY
@@ -59,15 +59,15 @@ DOMAIN-SUFFIX,mercari.com,PROXY
 DOMAIN-SUFFIX,mercdn.net,PROXY
 DOMAIN-SUFFIX,dengekiya.com,PROXY
 DOMAIN-SUFFIX,melonbooks.akamaized.net,PROXY
-DOMAIN-SUFFIX,lashinbang.com
+DOMAIN-SUFFIX,lashinbang.com,PROXY
 
-#CDN,PROXY
+#CDN
 DOMAIN-SUFFIX,cdn12.com,PROXY
 DOMAIN-SUFFIX,cloudfront.net,PROXY
 DOMAIN-SUFFIX,cloudflare.steamstatic.com,PROXY
-DOMAIN-SUFFIX,cloudflare.com
+DOMAIN-SUFFIX,cloudflare.com,PROXY
 
-#??????????????????????????????????????????,PROXY
+#??????????????????????????????????????????
 DOMAIN-SUFFIX,sankakucomplex.com,PROXY
 DOMAIN-SUFFIX,iwara.tv,PROXY
 DOMAIN-SUFFIX,exhentai.org,PROXY
