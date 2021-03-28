@@ -47,9 +47,5 @@ http-response ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness
 http-request ^http://.+/amdc/mobileDispatch requires-body=1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js
 http-response ^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail requires-body=1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js
 
-############### Pixiv Premium
-############### Source:https://github.com/hly0928/Proxy-profiles/blob/master/Surge/Module/Script.sgmodule
-http-response ^https:\/\/oauth\.secure\.pixiv\.net\/auth\/token requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/hly0928/Proxy-profiles/master/Surge/Script/pixiv_premium.js
-
 [MITM]
-hostname = %APPEND% *.googlevideo.com, *.youtube.com, youtubei.googleapis.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, api.bilibili.com, app.bilibili.com, api.live.bilibili.com, api.m.jd.com, trade-acs.m.taobao.com, oauth.secure.pixiv.net
+hostname = %APPEND% *.googlevideo.com, *.youtube.com, youtubei.googleapis.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, api.bilibili.com, app.bilibili.com, api.live.bilibili.com, api.m.jd.com, trade-acs.m.taobao.com
