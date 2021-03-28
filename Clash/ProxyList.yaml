@@ -11,6 +11,7 @@ payload:
   - DOMAIN,img.dlsite.jp
   - DOMAIN,www.dmm.com
   - DOMAIN,stackoverflow.com
+  - DOMAIN,doubibackup.com
 
 #SUFFIX
   - DOMAIN-SUFFIX,blinkload.org
