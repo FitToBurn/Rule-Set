@@ -13,6 +13,7 @@ DOMAIN,stackoverflow.com,PROXY
 DOMAIN,doubibackup.com,PROXY
 
 #SUFFIX
+DOMAIN-SUFFIX,msftauth.net,PROXY
 DOMAIN-SUFFIX,blinkload.org,PROXY
 DOMAIN-SUFFIX,fast.com,PROXY
 DOMAIN-SUFFIX,discord.com,PROXY
