@@ -1,5 +1,4 @@
 payload:
-  - DOMAIN-SUFFIX,tiktokcdn.com
   - DOMAIN,www.cphub.net
   - DOMAIN-SUFFIX,synology.com
   - DOMAIN,s1.wrangler.monster
