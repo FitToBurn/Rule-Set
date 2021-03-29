@@ -13,7 +13,6 @@ DOMAIN,stackoverflow.com
 DOMAIN,doubibackup.com
 
 #SUFFIX
-DOMAIN-SUFFIX,tiktokv.com
 DOMAIN-SUFFIX,52.mk
 DOMAIN-SUFFIX,msftauth.net
 DOMAIN-SUFFIX,blinkload.org
