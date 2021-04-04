@@ -1,6 +1,4 @@
 payload:
-#  - DOMAIN,login.microsoftonline.com
-#  - DOMAIN,login.live.com
   - DOMAIN,coursehero.com
   - DOMAIN,uploads.ungrounded.net
   - DOMAIN,bwh88.net
@@ -15,7 +13,6 @@ payload:
 
 #SUFFIX
   - DOMAIN-SUFFIX,52.mk
-#  - DOMAIN-SUFFIX,msftauth.net
   - DOMAIN-SUFFIX,blinkload.org
   - DOMAIN-SUFFIX,fast.com
   - DOMAIN-SUFFIX,discord.com
