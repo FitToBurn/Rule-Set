@@ -12,6 +12,7 @@ DOMAIN,stackoverflow.com,PROXY
 DOMAIN,doubibackup.com,PROXY
 
 #SUFFIX
+DOMAIN-SUFFIX,api.mega.co.nz,PROXY
 DOMAIN-SUFFIX,opensubtitles.org,PROXY
 DOMAIN-SUFFIX,52.mk,PROXY
 DOMAIN-SUFFIX,blinkload.org,PROXY

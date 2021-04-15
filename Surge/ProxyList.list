@@ -12,6 +12,7 @@ DOMAIN,stackoverflow.com
 DOMAIN,doubibackup.com
 
 #SUFFIX
+DOMAIN-SUFFIX,api.mega.co.nz
 DOMAIN-SUFFIX,opensubtitles.org
 DOMAIN-SUFFIX,52.mk
 DOMAIN-SUFFIX,blinkload.org
