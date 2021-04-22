@@ -1,7 +1,6 @@
 payload:
   - DOMAIN,www.cphub.net
   - DOMAIN-SUFFIX,synology.com
-  - DOMAIN,s1.wrangler.monster
   - DOMAIN-SUFFIX,upos-hz-mirrorakam.akamaized.net
   - DOMAIN-SUFFIX,ip.cn
   - DOMAIN-SUFFIX,gov.cn
@@ -25,3 +24,5 @@ payload:
   - PROCESS-NAME,uTorrent
   - PROCESS-NAME,WebTorrent
   - PROCESS-NAME,WebTorrent Helper
+  # Special
+  - DOMAIN-SUFFIX,wrangler.monster

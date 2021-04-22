@@ -1,6 +1,5 @@
 DOMAIN,www.cphub.net,DIRECT
 DOMAIN-SUFFIX,synology.com,DIRECT
-DOMAIN,s1.wrangler.monster,DIRECT
 DOMAIN-SUFFIX,upos-hz-mirrorakam.akamaized.net,DIRECT
 DOMAIN-SUFFIX,ip.cn,DIRECT
 DOMAIN-SUFFIX,gov.cn,DIRECT
@@ -10,3 +9,5 @@ DOMAIN-SUFFIX,aoe-api.reliclink.com,DIRECT
 DOMAIN-SUFFIX,ageofempires.com,DIRECT
 DOMAIN-SUFFIX,vortex.data.microsoft.com,DIRECT
 DOMAIN-SUFFIX,watson.telemetry.microsoft.com,DIRECT
+# Special
+DOMAIN-SUFFIX,wrangler.monster,DIRECT
