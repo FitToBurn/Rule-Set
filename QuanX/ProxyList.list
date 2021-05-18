@@ -10,6 +10,7 @@ DOMAIN,img.dlsite.jp,PROXY
 DOMAIN,www.dmm.com,PROXY
 DOMAIN,stackoverflow.com,PROXY
 DOMAIN,doubibackup.com,PROXY
+DOMAIN,api.themoviedb.org,PROXY
 
 #SUFFIX
 DOMAIN-SUFFIX,v2ex.com,PROXY

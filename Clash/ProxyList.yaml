@@ -11,6 +11,7 @@ payload:
   - DOMAIN,www.dmm.com
   - DOMAIN,stackoverflow.com
   - DOMAIN,doubibackup.com
+  - DOMAIN,api.themoviedb.org
 
 #SUFFIX
   - DOMAIN-SUFFIX,v2ex.com
