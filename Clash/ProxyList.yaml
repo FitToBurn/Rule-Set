@@ -16,9 +16,6 @@ payload:
   - DOMAIN,hls.itunes.apple.com
   - DOMAIN,hls-amt.itunes.apple.com
   - DOMAIN,play-edge.itunes.apple.com
-  - PROCESS-NAME,TV
-  - USER-AGENT,AppleTV*
-  - USER-AGENT,com.apple.tv*
 
 #SUFFIX
   - DOMAIN-SUFFIX,v2ex.com
