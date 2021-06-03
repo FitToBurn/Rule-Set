@@ -12,6 +12,8 @@ payload:
   - DOMAIN,stackoverflow.com
   - DOMAIN,doubibackup.com
   - DOMAIN,api.themoviedb.org
+  - DOMAIN,linear.tv.apple.com
+  - DOMAIN,play-edge.itunes.apple.com
 
 #SUFFIX
   - DOMAIN-SUFFIX,v2ex.com
