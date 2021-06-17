@@ -13,6 +13,11 @@ payload:
   - DOMAIN,doubibackup.com
   - DOMAIN,api.themoviedb.org
   - DOMAIN,scdnco.spotify.map.fastly.net
+  - USER-AGENT,*Spotify*
+  - DOMAIN-SUFFIX,pscdn.co
+  - DOMAIN-SUFFIX,scdn.co
+  - DOMAIN-SUFFIX,spoti.fi
+  - DOMAIN-SUFFIX,spotify.com
 #SUFFIX
   - DOMAIN-SUFFIX,v2ex.com
   - DOMAIN-SUFFIX,discord.media
