@@ -12,6 +12,7 @@ payload:
   - DOMAIN,stackoverflow.com
   - DOMAIN,doubibackup.com
   - DOMAIN,api.themoviedb.org
+  - DOMAIN,scdnco.spotify.map.fastly.net
 #SUFFIX
   - DOMAIN-SUFFIX,v2ex.com
   - DOMAIN-SUFFIX,discord.media
