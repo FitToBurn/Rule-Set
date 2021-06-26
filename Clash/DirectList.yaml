@@ -26,3 +26,4 @@ payload:
   - PROCESS-NAME,WebTorrent Helper
   # Special
   - DOMAIN-SUFFIX,wrangler.monster
+  - DOMAIN,hgamefree.info

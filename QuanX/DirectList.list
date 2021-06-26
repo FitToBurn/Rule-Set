@@ -11,3 +11,4 @@ DOMAIN-SUFFIX,vortex.data.microsoft.com,DIRECT
 DOMAIN-SUFFIX,watson.telemetry.microsoft.com,DIRECT
 # Special
 DOMAIN-SUFFIX,wrangler.monster,DIRECT
+DOMAIN,hgamefree.info,DIRECT
