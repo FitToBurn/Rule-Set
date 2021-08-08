@@ -1,4 +1,5 @@
 payload:
+  - IP-CIDR,192.168.1.1/32,no-resolve
   - DOMAIN,scikit-learn.org
   - DOMAIN,coursehero.com
   - DOMAIN,uploads.ungrounded.net
