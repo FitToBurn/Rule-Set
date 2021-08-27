@@ -13,7 +13,6 @@ DOMAIN,doubibackup.com
 DOMAIN,api.themoviedb.org
 
 #SUFFIX
-DOMAIN-SUFFIX,dmm.co.jp
 DOMAIN-SUFFIX,v2ex.com
 DOMAIN-SUFFIX,discord.media
 DOMAIN-SUFFIX,api.mega.co.nz
