@@ -5,6 +5,8 @@ DOMAIN-SUFFIX,upos-hz-mirrorakam.akamaized.net,DIRECT
 DOMAIN-SUFFIX,ip.cn,DIRECT
 DOMAIN-SUFFIX,gov.cn,DIRECT
 DOMAIN-SUFFIX,vmware.com,DIRECT
+DOMAIN-SUFFIX,steamusercontent-a.akamaihd.net,DIRECT
+DOMAIN-SUFFIX,steam-chat.com,DIRECT
 # UU AOE2
 DOMAIN-SUFFIX,aoe-api.reliclink.com,DIRECT
 DOMAIN-SUFFIX,ageofempires.com,DIRECT
