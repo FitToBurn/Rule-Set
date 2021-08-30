@@ -6,6 +6,7 @@ payload:
   - DOMAIN-SUFFIX,ip.cn
   - DOMAIN-SUFFIX,gov.cn
   - DOMAIN-SUFFIX,vmware.com
+  - DOMAIN-SUFFIX,steamusercontent-a.akamaihd.net
   - DOMAIN-SUFFIX,steam-chat.com
   # UU AOE2
   - DOMAIN-SUFFIX,aoe-api.reliclink.com
