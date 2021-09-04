@@ -5,6 +5,7 @@ payload:
 
 ##TW
   #巴哈姆特动画疯
+  - DOMAIN,18comic.vip
   - DOMAIN,gamer2-cds.cdn.hinet.net,Trojan-GCP_TW
   - DOMAIN,gamer-cds.cdn.hinet.net,Trojan-GCP_TW
   - DOMAIN-SUFFIX,bahamut.com.tw,Trojan-GCP_TW
