@@ -14,5 +14,6 @@ DOMAIN-SUFFIX,aoe-api.reliclink.com,DIRECT
 DOMAIN-SUFFIX,ageofempires.com,DIRECT
 DOMAIN-SUFFIX,vortex.data.microsoft.com,DIRECT
 DOMAIN-SUFFIX,watson.telemetry.microsoft.com,DIRECT
+
 # Special
 DOMAIN-SUFFIX,wrangler.monster,DIRECT

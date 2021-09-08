@@ -1,5 +1,4 @@
 payload:
-  - DOMAIN,router.com
   - DOMAIN,scikit-learn.org
   - DOMAIN,coursehero.com
   - DOMAIN,uploads.ungrounded.net
@@ -96,3 +95,6 @@ payload:
   - DOMAIN-SUFFIX,javhd.com
   - DOMAIN-SUFFIX,tokyo-hot.com
   - DOMAIN,hgamefree.info
+
+# Special
+  - DOMAIN,router.com

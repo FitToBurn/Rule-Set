@@ -1,4 +1,3 @@
-DOMAIN,router.com,PROXY
 DOMAIN,scikit-learn.org,PROXY
 DOMAIN,coursehero.com,PROXY
 DOMAIN,uploads.ungrounded.net,PROXY
@@ -96,3 +95,6 @@ DOMAIN-SUFFIX,javbus.com,PROXY
 DOMAIN-SUFFIX,javhd.com,PROXY
 DOMAIN-SUFFIX,tokyo-hot.com,PROXY
 DOMAIN,hgamefree.info,DIRECT
+
+# Special
+DOMAIN,router.com,PROXY
