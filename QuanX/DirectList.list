@@ -5,8 +5,10 @@ DOMAIN-SUFFIX,upos-hz-mirrorakam.akamaized.net,DIRECT
 DOMAIN-SUFFIX,ip.cn,DIRECT
 DOMAIN-SUFFIX,gov.cn,DIRECT
 DOMAIN-SUFFIX,vmware.com,DIRECT
+DOMAIN-SUFFIX,rapidgator.net,DIRECT
 DOMAIN-SUFFIX,steamusercontent-a.akamaihd.net,DIRECT
 DOMAIN-SUFFIX,steam-chat.com,DIRECT
+
 # UU AOE2
 DOMAIN-SUFFIX,aoe-api.reliclink.com,DIRECT
 DOMAIN-SUFFIX,ageofempires.com,DIRECT
@@ -14,5 +16,3 @@ DOMAIN-SUFFIX,vortex.data.microsoft.com,DIRECT
 DOMAIN-SUFFIX,watson.telemetry.microsoft.com,DIRECT
 # Special
 DOMAIN-SUFFIX,wrangler.monster,DIRECT
-DOMAIN,hgamefree.info,DIRECT
-DOMAIN-SUFFIX,rapidgator.net,DIRECT
