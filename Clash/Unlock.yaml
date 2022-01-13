@@ -6,10 +6,10 @@ payload:
 ##TW
   - DOMAIN,18comic.vip
   #巴哈姆特动画疯
-  - DOMAIN,gamer2-cds.cdn.hinet.net,Trojan-GCP_TW
-  - DOMAIN,gamer-cds.cdn.hinet.net,Trojan-GCP_TW
-  - DOMAIN-SUFFIX,bahamut.com.tw,Trojan-GCP_TW
-  - DOMAIN-SUFFIX,gamer.com.tw,Trojan-GCP_TW
+  - DOMAIN,gamer2-cds.cdn.hinet.net
+  - DOMAIN,gamer-cds.cdn.hinet.net
+  - DOMAIN-SUFFIX,bahamut.com.tw
+  - DOMAIN-SUFFIX,gamer.com.tw
   #Bilibili-HMT
   - DOMAIN-SUFFIX,biliapi.net
   - DOMAIN-SUFFIX,biliapi.com
