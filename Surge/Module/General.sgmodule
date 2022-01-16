@@ -3,9 +3,16 @@
 #!system=ios
 
 [Script]
-############### iOS 解锁Bilibili 1080P+
-############### Source:https://github.com/Sunert/Script/blob/master/Script/Bilibili/BiliHD.js
+# iOS 解锁Bilibili 1080P+
+# Source:https://github.com/Sunert/Script/blob/master/Script/Bilibili/BiliHD.js
 http-response https:\/\/ap(p|i)\.bilibili\.com\/((pgc\/player\/api\/playurl)|(x\/v2\/account\/myinfo\?)|(x\/v2\/account/mine\?)) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Sunert/Script/master/Script/Bilibili/BiliHD.js
 
+# 动画疯 去广告 Source:https://github.com/nzw9314/Surge/blob/master/Module/Script_All_in_one.sgmodule
+Bahamut.js = requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Bahamut.js,type=http-request,pattern=https:\/\/api\.gamer\.com\.tw\/mobile_app\/anime\/v3\/token\.php
+Bahamut.js = requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Bahamut.js,type=http-response,pattern=https:\/\/api\.gamer\.com\.tw\/mobile_app\/anime\/v3\/token\.php
+
+# > 抖音 & TikTok Remove Ad & Logo Source:https://github.com/nzw9314/Surge/blob/master/Module/Script_All_in_one.sgmodule
+douyin_ad = type=http-response,pattern=^https?:\/\/aweme\.snssdk\.com\/aweme\/v1\/(feed|aweme\/post|follow\/feed|nearby\/feed|search\/item|general\/search\/single|hot\/search\/video\/list)\/,requires-body=1,max-size=-1,script-path=https://Choler.github.io/Surge/Script/douyin.js
+
 [MITM]
-hostname = %APPEND% api.bilibili.com
+hostname = %APPEND% api.bilibili.com, aweme*.snssdk.com, api.gamer.com.tw
