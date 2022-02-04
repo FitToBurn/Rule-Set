@@ -2,6 +2,7 @@
 #!desc=TikTok Unlock
 
 [URL Rewrite]
+(?<=preferred_language=)en(?=&) en-JP 307
 (?<=residence=)US(?=&) JP 307
 (?<=_region=)US(?=&) JP 307
 (^h.+v5\/)(.+) $1 302
