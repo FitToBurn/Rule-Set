@@ -1,3 +1,11 @@
+#!name=General
+#!desc=General improvements.
+#!system=ios
+
 [URL Rewrite]
 ctier=[A-Z] citer=A 302
 ^https://[\s\S]*\.googlevideo\.com/.*&(oad|ctier) url reject-200
+
+
+[MITM]
+hostname = %APPEND% *.googlevideo.com
