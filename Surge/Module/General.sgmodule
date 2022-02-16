@@ -2,29 +2,7 @@
 #!desc=General improvements.
 #!system=ios
 
-[Rule]
-URL-REGEX,https?:\/\/.+.googlevideo.com\/ptracking\?pltype=adhost,REJECT
-URL-REGEX,https?:\/\/.+.youtube.com\/api\/stats\/ads,REJECT
-URL-REGEX,https?:\/\/.+.youtube.com\/get_midroll_,REJECT
-URL-REGEX,https?:\/\/.+.youtube.com\/pagead\/,REJECT
-URL-REGEX,https?:\/\/.+.youtube.com\/ptracking\?,REJECT
-URL-REGEX,https?:\/\/.+.youtube.com\/_get_ads,REJECT
-URL-REGEX,https?:\/\/premiumyva.appspot.com\/vmclickstoadvertisersite,REJECT
-URL-REGEX,https?:\/\/s0.2mdn.net\/ads\/,REJECT
-URL-REGEX,https?:\/\/stats.tubemogul.com\/stats\/,REJECT
-URL-REGEX,https?:\/\/youtubei.googleapis.com\/.+ad_break,REJECT
-URL-REGEX,https?:\/\/youtubei.googleapis.com\/youtubei\/.+(ad|log),REJECT
-URL-REGEX,https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adformat,REJECT
-URL-REGEX,https?:\/\/[\w-]+\.googlevideo\.com\/.+&oad,REJECT-TINYGIF
-
-[URL Rewrite]
-ctier=[A-Z] citer=A 302
-
 [Script]
-# Mac/iOS YouTube AD
-# Source:https://github.com/lhie1/Rules/blob/master/Surge/Surge%203/Module/YouTube.sgmodule
-http-request https?:\/\/.+?\.googlevideo\.com\/.+&(oad|ctier)=(?!A),script-path=https://choler.github.io/Surge/Script/YouTube.js
-
 # iOS 微博 AD
 # Source:https://github.com/lhie1/Rules/blob/master/Surge/Surge%203/Module/Weibo.sgmodule
 http-response ^https?://(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua) requires-body=1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/wb_launch.js
@@ -41,4 +19,4 @@ http-response ^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getde
 http-response https:\/\/ap(p|i)\.bilibili\.com\/((pgc\/player\/api\/playurl)|(x\/v2\/account\/myinfo\?)|(x\/v2\/account/mine\?)) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Sunert/Script/master/Script/Bilibili/BiliHD.js
 
 [MITM]
-hostname = %APPEND% api.bilibili.com, *.googlevideo.com, *.youtube.com, youtubei.googleapis.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, api.m.jd.com, trade-acs.m.taobao.com
+hostname = %APPEND% api.bilibili.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, api.m.jd.com, trade-acs.m.taobao.com
