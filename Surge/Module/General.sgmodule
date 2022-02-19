@@ -2,10 +2,6 @@
 #!desc=General improvements.
 #!system=ios
 
-
-[URL Rewrite]
-^https:?\/\/boxer\.baidu\.com/scheme\?scheme=baiduboxapp - reject
-
 [Script]
 # iOS 微博 AD
 # Source:https://github.com/lhie1/Rules/blob/master/Surge/Surge%203/Module/Weibo.sgmodule
