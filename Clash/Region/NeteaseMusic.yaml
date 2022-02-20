@@ -1,4 +1,2 @@
 payload:
-  - DOMAIN-SUFFIX,163.com
-  - DOMAIN-SUFFIX,126.net
   - PROCESS-NAME, cloudmusic.exe
