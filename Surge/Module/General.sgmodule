@@ -2,21 +2,32 @@
 #!desc=General improvements.
 #!system=ios
 
+[Rule]
+# > NetEase Music
+URL-REGEX,^https?:\/\/interface3?\.music\.163\.com\/eapi\/(ad|abtest|banner|cloudvideo|event|experiment|mlivestream|mlog|msg|socialsquare|sp|store|videotimeline|webcache|hot\/(?!search)|comment\/(banner|hotwall|tips)|content\/exposure\/comment\/banner|(usersafe\/)?pl\/count),REJECT
+
 [Script]
-# iOS 微博 AD
+# > 微博 AD
 # Source:https://github.com/lhie1/Rules/blob/master/Surge/Surge%203/Module/Weibo.sgmodule
 http-response ^https?://(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua) requires-body=1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/wb_launch.js
 http-response ^https?://m?api\.weibo\.c(n|om)/2/(statuses/(unread|extend|positives/get|(friends|video)(/|_)(mix)?timeline)|stories/(video_stream|home_list)|(groups|fangle)/timeline|profile/statuses|comments/build_comments|photo/recommend_list|service/picfeed|searchall|cardlist|page|!/(photos/pic_recommend_status|live/media_homelist)|video/tiny_stream_video_list|photo/info) requires-body=1,max-size=-1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/wb_ad.js
 
-# iOS 京东/淘宝 历史价格
+# > 京东/淘宝 历史价格
 # Source:https://github.com/lhie1/Rules/blob/master/Surge/Surge%203/Module/Historical%20price.sgmodule
 http-response ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) requires-body=1,script-path=https://service.2ti.st/QuanX/Script/jd_tb_price/main.js
 http-request ^http://.+/amdc/mobileDispatch requires-body=1,script-path=https://service.2ti.st/QuanX/Script/jd_tb_price/main.js
 http-response ^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail requires-body=1,script-path=https://service.2ti.st/QuanX/Script/jd_tb_price/main.js
 
-# iOS 解锁Bilibili 1080P+
+# > 解锁Bilibili 1080P+
 # Source:https://github.com/Sunert/Script/blob/master/Script/Bilibili/BiliHD.js
 http-response https:\/\/ap(p|i)\.bilibili\.com\/((pgc\/player\/api\/playurl)|(x\/v2\/account\/myinfo\?)|(x\/v2\/account/mine\?)) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Sunert/Script/master/Script/Bilibili/BiliHD.js
 
+# > Pixiv Premium
+# Source:https://raw.githubusercontent.com/hly0928/Proxy-profiles/master/Surge/Module/Script.sgmodule
+# Source:https://raw.githubusercontent.com/hly0928/Proxy-profiles/master/Surge/Module/Adlist.sgmodule
+Pixiv Premium = type=http-response,pattern=^https:\/\/oauth\.secure\.pixiv\.net\/auth\/token,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/hly0928/Proxy-profiles/master/Surge/Script/pixiv_premium.js,script-update-interval=0
+AND,((USER-AGENT,pixiv*), (NOT,((DOMAIN-KEYWORD,pixiv)))),REJECT
+URL-REGEX,^https?:\/\/app-api\.pixiv\.net\/v1\/live\/,REJECT
+
 [MITM]
-hostname = %APPEND% api.bilibili.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, api.m.jd.com, trade-acs.m.taobao.com
+hostname = %APPEND% api.bilibili.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, api.m.jd.com, trade-acs.m.taobao.com, oauth.secure.pixiv.net, interface*.music.163.com, app-api.pixiv.net
