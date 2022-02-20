@@ -1,2 +1,3 @@
-- DOMAIN-SUFFIX,163.com
-- PROCESS-NAME, NeteaseMusic
+payload:
+  - DOMAIN-SUFFIX,163.com
+  - PROCESS-NAME, NeteaseMusic
