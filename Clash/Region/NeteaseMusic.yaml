@@ -1,3 +1,4 @@
 payload:
   - DOMAIN-SUFFIX,163.com
   - PROCESS-NAME, NeteaseMusic
+  - PROCESS-NAME, cloudmusic.exe
