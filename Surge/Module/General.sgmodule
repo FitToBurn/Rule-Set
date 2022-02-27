@@ -21,12 +21,5 @@ http-response ^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getde
 # Source:https://github.com/Sunert/Script/blob/master/Script/Bilibili/BiliHD.js
 http-response https:\/\/ap(p|i)\.bilibili\.com\/((pgc\/player\/api\/playurl)|(x\/v2\/account\/myinfo\?)|(x\/v2\/account/mine\?)) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Sunert/Script/master/Script/Bilibili/BiliHD.js
 
-# > Pixiv Premium
-# Source:https://raw.githubusercontent.com/hly0928/Proxy-profiles/master/Surge/Module/Script.sgmodule
-# Source:https://raw.githubusercontent.com/hly0928/Proxy-profiles/master/Surge/Module/Adlist.sgmodule
-Pixiv Premium = type=http-response,pattern=^https:\/\/oauth\.secure\.pixiv\.net\/auth\/token,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/hly0928/Proxy-profiles/master/Surge/Script/pixiv_premium.js,script-update-interval=0
-AND,((USER-AGENT,pixiv*), (NOT,((DOMAIN-KEYWORD,pixiv)))),REJECT
-URL-REGEX,^https?:\/\/app-api\.pixiv\.net\/v1\/live\/,REJECT
-
 [MITM]
-hostname = %APPEND% api.bilibili.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, api.m.jd.com, trade-acs.m.taobao.com, oauth.secure.pixiv.net, interface*.music.163.com, app-api.pixiv.net
+hostname = %APPEND% api.bilibili.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, api.m.jd.com, trade-acs.m.taobao.com, interface*.music.163.com
