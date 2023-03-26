@@ -12,6 +12,7 @@ payload:
   - DOMAIN,doubibackup.com
   - DOMAIN,api.themoviedb.org
 #SUFFIX
+  - DOMAIN-SUFFIX,openai.com
   - DOMAIN-SUFFIX,v2ex.com
   - DOMAIN-SUFFIX,discord.media
   - DOMAIN-SUFFIX,api.mega.co.nz
