@@ -3,6 +3,7 @@
 
 [Rule]
 # > NetEase Music
+# Source:https://raw.githubusercontent.com/hly0928/Proxy-profiles/master/Surge/Module/Adlist.sgmodule
 URL-REGEX,^https?:\/\/interface3?\.music\.163\.com\/eapi\/(ad|abtest|banner|cloudvideo|event|experiment|mlivestream|mlog|msg|socialsquare|sp|store|videotimeline|webcache|hot\/(?!search)|comment\/(banner|hotwall|tips)|content\/exposure\/comment\/banner|(usersafe\/)?pl\/count),REJECT
 
 [Script]
