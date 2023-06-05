@@ -1,2 +1,6 @@
 payload:
   - PROCESS-NAME, cloudmusic.exe
+  - DOMAIN-SUFFIX,music.163.com
+  - DOMAIN-SUFFIX,music.126.net
+  - DOMAIN,mam.netease.com
+  - DOMAIN,api.iplay.163.com
