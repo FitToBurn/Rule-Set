@@ -11,6 +11,8 @@ payload:
   - DOMAIN,stackoverflow.com
   - DOMAIN,doubibackup.com
   - DOMAIN,api.themoviedb.org
+  - DOMAIN,gamestream.nvidia.com
+  
 #SUFFIX
   - DOMAIN-SUFFIX,openai.com
   - DOMAIN-SUFFIX,v2ex.com
