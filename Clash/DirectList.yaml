@@ -7,7 +7,7 @@ payload:
   - DOMAIN-SUFFIX,ip.cn
   - DOMAIN-SUFFIX,gov.cn
   - DOMAIN-SUFFIX,vmware.com
-  # - DOMAIN-SUFFIX,rapidgator.net
+  #  - DOMAIN-SUFFIX,rapidgator.net
   - DOMAIN-SUFFIX,steamusercontent-a.akamaihd.net
   - DOMAIN-SUFFIX,steam-chat.com
   - DOMAIN-SUFFIX,escapefromtarkov.com
