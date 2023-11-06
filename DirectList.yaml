@@ -35,3 +35,4 @@ payload:
   # Special
   - DOMAIN-SUFFIX,ryoko.cc
   - DOMAIN-SUFFIX,cloudflare.com
+  - DOMAIN-SUFFIX,quickconnect.to
