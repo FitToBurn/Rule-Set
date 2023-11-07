@@ -2,7 +2,6 @@ payload:
   - DOMAIN,leechall.com
   - DOMAIN,neodebrid.com
   - DOMAIN,www.cphub.net
-  - DOMAIN-SUFFIX,synology.com
   - DOMAIN-SUFFIX,upos-hz-mirrorakam.akamaized.net
   - DOMAIN-SUFFIX,ip.cn
   - DOMAIN-SUFFIX,gov.cn
@@ -35,4 +34,7 @@ payload:
   # Special
   - DOMAIN-SUFFIX,ryoko.cc
   - DOMAIN-SUFFIX,cloudflare.com
+  - DOMAIN-SUFFIX,quickconnect.cn
   - DOMAIN-SUFFIX,quickconnect.to
+  - DOMAIN-SUFFIX,synology.com
+  - DOMAIN-SUFFIX,dyndns.org
