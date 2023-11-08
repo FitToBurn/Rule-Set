@@ -33,7 +33,6 @@ payload:
   
   # Special
   - DOMAIN-SUFFIX,ryoko.cc
-  - DOMAIN-SUFFIX,cloudflare.com
   - DOMAIN-SUFFIX,quickconnect.cn
   - DOMAIN-SUFFIX,quickconnect.to
   - DOMAIN-SUFFIX,synology.com
