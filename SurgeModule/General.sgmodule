@@ -14,6 +14,6 @@ http-response ^https?://m?api\.weibo\.c(n|om)/2/(messageflow/notice|search/(cont
 
 # > 解锁Bilibili 1080P+
 # Source:https://github.com/Sunert/Script/blob/master/Script/Bilibili/BiliHD.js
-# http-response ^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/myinfo\? requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js
+http-response ^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/myinfo\? requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js
 [MITM]
 hostname = %APPEND% api.bilibili.com, app.bilibili.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, interface*.music.163.com
