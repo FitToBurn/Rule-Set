@@ -15,5 +15,6 @@ http-response ^https?://m?api\.weibo\.c(n|om)/2/(messageflow/notice|search/(cont
 # > 解锁Bilibili 1080P+ 调试需要重新登录账号
 # Source:https://github.com/Sunert/Script/blob/master/Script/Bilibili/BiliHD.js
 http-response https:\/\/ap(p|i)\.bilibili\.com\/((pgc\/player\/api\/playurl)|(x\/v2\/account\/myinfo\?)|(x\/v2\/account/mine\?)) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Script/BiliHD.js
+
 [MITM]
 hostname = %APPEND% api.bilibili.com, app.bilibili.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, interface*.music.163.com
