@@ -1,9 +1,0 @@
-#!name=TEST2
-#!desc=TEST2
-
-[Script]
-http-response https://api.bilibili.com/pgc/player/api/playurl requires-body=1,max-size=0,script-path=bilibili.unblock.playurl.min.js
-http-response https://api.bilibili.com/pgc/view/app/season requires-body=1,max-size=0,script-path=bilibili.unblock.season.min.js
-
-[MITM]
-hostname = %APPEND% api.bilibili.com
