@@ -1,7 +1,0 @@
-#!name=TEST1
-#!desc=TEST1
-
-https:\/\/app\.bilibili\.com\/(x\/vip\/web\/user\/combine|vip\/home|x\/v2\/account\/mine|x\/v2\/account\/myinfo) url script-response-body https://raw.githubusercontent.com/Nan-nx/En/master/Bilibili/Bibilivip.js
-
-[MITM]
-hostname = %APPEND% api.bilibili.com, app.bilibili.com
