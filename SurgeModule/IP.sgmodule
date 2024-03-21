@@ -3,8 +3,8 @@
 #!arguments-desc=- 微博IP：[🇨🇳CN, 🇯🇵JP, 🇰🇷KR, 🇼🇸TW, 🇺🇸US]
 
 [Rule]
-DOMAIN-SUFFIX,api.weibo.cn,{{{微博IP}}}
-DOMAIN-SUFFIX,api.weibo.com,{{{微博IP}}}
+DOMAIN-SUFFIX,weibo.cn,{{{微博IP}}}
+DOMAIN-SUFFIX,weibo.com,{{{微博IP}}}
 DOMAIN-SUFFIX,weibocdn.com,{{{微博IP}}}
 DOMAIN-KEYWORD,weibo,{{{微博IP}}}
 
