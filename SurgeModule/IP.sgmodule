@@ -1,0 +1,9 @@
+#!name=IP归属地调整
+#!arguments=屏蔽上传按钮:🇨🇳CN
+#!arguments-desc=- 微博IP：[🇨🇳CN, 🇯🇵JP, 🇰🇷KR, 🇼🇸TW, 🇺🇸US]
+
+[Rule]
+DOMAIN,api.weibo.cn,{{{微博IP}}}
+DOMAIN,api.weibo.com,{{{微博IP}}}
+
+
