@@ -1,0 +1,14 @@
+#!name=通用解锁
+#!desc=Revenuecat Unlock Surge@langkhach270389
+
+[Header Rewrite]
+^https:\/\/(api\.revenuecat|isi\.csan\.goodnotes)\.com\/.+ header-del if-modified-since
+^https:\/\/(api\.revenuecat|isi\.csan\.goodnotes)\.com\/.+ header-del if-none-match
+^https:\/\/(api\.revenuecat|isi\.csan\.goodnotes)\.com\/.+ header-del X-RevenueCat-ETag
+^https:\/\/(api\.revenuecat|isi\.csan\.goodnotes)\.com\/.+ header-del x-revenuecat-etag
+
+[URL Rewrite]
+^https:\/\/(api\.revenuecat|isi\.csan\.goodnotes)\.com\/.+\/(receipts$|subscribers\/[^/]+$|offers$) https://api.langkhach89.workers.dev header
+
+[MITM]
+hostname = %APPEND% api.revenuecat.com, isi.csan.goodnotes.com
