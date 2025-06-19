@@ -10,6 +10,7 @@ payload:
   - DOMAIN-SUFFIX,steamusercontent-a.akamaihd.net
   - DOMAIN-SUFFIX,steam-chat.com
   - DOMAIN-SUFFIX,escapefromtarkov.com
+  - DOMAIN-SUFFIX,parsec.app
 
   # UU AOE2
   - DOMAIN-SUFFIX,aoe-api.reliclink.com
