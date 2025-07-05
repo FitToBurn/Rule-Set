@@ -12,6 +12,7 @@ payload:
   - DOMAIN,doubibackup.com
   - DOMAIN,api.themoviedb.org
   - DOMAIN,gamestream.nvidia.com
+  - DOMAIN,nasla-cf-plex.ryoko.cc
   
 #SUFFIX
   - DOMAIN-SUFFIX,nintendowifi.net
