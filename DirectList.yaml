@@ -34,6 +34,7 @@ payload:
   
   # Special
   - PROCESS-NAME,Parsec
+  - DOMAIN-SUFFIX,parsecusercontent.com
   - DOMAIN-SUFFIX,ryoko.cc
   - DOMAIN-SUFFIX,quickconnect.cn
   - DOMAIN-SUFFIX,quickconnect.to
