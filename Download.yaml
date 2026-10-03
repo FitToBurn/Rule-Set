@@ -9,6 +9,7 @@ payload:
   - DOMAIN-SUFFIX,mega.io
   - DOMAIN-SUFFIX,mega.nz
   - DOMAIN-SUFFIX,pixeldrain.com
+  - DOMAIN-SUFFIX,gofile.io
 
   - DOMAIN-SUFFIX,mypikpak.com
   - DOMAIN-SUFFIX,config.mypikpak.com
