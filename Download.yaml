@@ -12,6 +12,7 @@ payload:
   - DOMAIN-SUFFIX,gofile.io
 
   - DOMAIN-SUFFIX,mypikpak.com
+  - DOMAIN-SUFFIX,pawchive.pw:443
   - DOMAIN-SUFFIX,config.mypikpak.com
   - DOMAIN-SUFFIX,user.mypikpak.com
   - DOMAIN-SUFFIX,static.mypikpak.com
