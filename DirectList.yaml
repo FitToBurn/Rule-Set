@@ -31,6 +31,7 @@ payload:
   - PROCESS-NAME,uTorrent
   - PROCESS-NAME,WebTorrent
   - PROCESS-NAME,WebTorrent Helper
+  - DOMAIN-SUFFIX,imoutoheaven.org
   
   # Special
   - PROCESS-NAME,parsecd
