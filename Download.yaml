@@ -11,8 +11,10 @@ payload:
   - DOMAIN-SUFFIX,pixeldrain.com
   - DOMAIN-SUFFIX,gofile.io
 
-  - DOMAIN-SUFFIX,imoutoheaven.org
+  - PROCESS-NAME,JDownloader2.exe
 
+  - PROCESS-NAME,DownloadServer.exe
+  - PROCESS-NAME,PikPak.exe
   - DOMAIN-SUFFIX,mypikpak.com
   - DOMAIN-SUFFIX,pikpakdrive.com
   - DOMAIN-SUFFIX,pikpak.me
@@ -35,5 +37,3 @@ payload:
   - DOMAIN-SUFFIX,vod0393-aliyun18-vip-lixian.mypikpak.com
   - DOMAIN-SUFFIX,vod0395-aliyun18-vip-lixian.mypikpak.com
   - DOMAIN-KEYWORD,mypikpak
-  - PROCESS-NAME,DownloadServer.exe
-  - PROCESS-NAME,PikPak.exe
