@@ -12,11 +12,11 @@ payload:
   - DOMAIN-SUFFIX,gofile.io
 
   - DOMAIN-SUFFIX,mypikpak.com
-  - DOMAIN-SUFFIX,pikpakdrive.com:443
-  - DOMAIN-SUFFIX,pikpak.me:443
-  - DOMAIN-SUFFIX,pikpak.io:443
-  - DOMAIN-SUFFIX,pickpackapp.com:443
-  - DOMAIN-SUFFIX,pawchive.pw:443
+  - DOMAIN-SUFFIX,pikpakdrive.com
+  - DOMAIN-SUFFIX,pikpak.me
+  - DOMAIN-SUFFIX,pikpak.io
+  - DOMAIN-SUFFIX,pickpackapp.com
+  - DOMAIN-SUFFIX,pawchive.pw
   - DOMAIN-SUFFIX,config.mypikpak.com
   - DOMAIN-SUFFIX,user.mypikpak.com
   - DOMAIN-SUFFIX,static.mypikpak.com
@@ -32,5 +32,6 @@ payload:
   - DOMAIN-SUFFIX,vod0051-aliyun18-vip-lixian.mypikpak.com
   - DOMAIN-SUFFIX,vod0393-aliyun18-vip-lixian.mypikpak.com
   - DOMAIN-SUFFIX,vod0395-aliyun18-vip-lixian.mypikpak.com
-  - PROCESS-NAME,PikPak.exe
   - DOMAIN-KEYWORD,mypikpak
+  - PROCESS-NAME,DownloadServer.exe
+  - PROCESS-NAME,PikPak.exe
