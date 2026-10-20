@@ -66,3 +66,11 @@ payload:
   - DOMAIN-SUFFIX,quickconnect.to
   - DOMAIN-SUFFIX,synology.com
   - DOMAIN-SUFFIX,dyndns.org
+
+  # Steam防限速
+  - DOMAIN-SUFFIX,steamserver.net,DIRECT
+  - DOMAIN-SUFFIX,steamgames.com,DIRECT
+  - DOMAIN-SUFFIX,steamusercontent.com,DIRECT
+  - DOMAIN-SUFFIX,steamstatic.com,DIRECT
+  - DOMAIN-SUFFIX,steamcdn-a.akamaihd.net,DIRECT
+  - DOMAIN-SUFFIX,steamstat.us,DIRECT
